@@ -1,0 +1,101 @@
+.hero-section {
+    min-height: 80vh; 
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.heronic {
+    width: 45%;                
+    display: block;
+}
+
+.hero-image-container {
+    width: 50%;                
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.hero-img {
+    width: 100%;               
+    max-width: 550px;          
+    height: auto;              
+    object-fit: contain;
+}
+
+@media screen and (max-width: 500px) {
+    .web-pg {
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .hero-section {
+        flex-direction: column; 
+        gap: 20px;
+        min-height: auto;
+        padding-top: 40px;
+    }
+
+    .heronic {
+        width: 100%;
+        text-align: center; 
+        order: 1;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .button-secondary, .button-primary {
+        margin: 0;
+    }
+
+    .hero-image-container {
+        width: 100%;
+        justify-content: center; 
+        margin-top: 20px;
+        order: 2;
+    }
+
+    .hero-img {
+        width: 100%; 
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    .web-pg {
+        margin: 0;
+        padding: 0 40px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .heronic {
+        width: 85%;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .hero-image-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .hero-img {
+        width: 80%;
+    }
+}

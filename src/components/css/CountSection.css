@@ -1,0 +1,57 @@
+#user-count{
+    width: 100%;
+}
+
+.count-details{
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.258), rgba(0, 0, 0, 0.272)),url("../../assets/trusted-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count h5{
+    color: #fff;
+}
+.count{
+    padding: 50px;
+}
+
+.count-details h1{
+    color: white;
+    font-size: 40px;
+}
+
+@media screen and (max-width:500px){
+
+.count-details{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-items:center;
+    height:auto;
+    padding:20px 0;
+}
+
+.count{
+    padding:20px 30px;
+}
+}
+
+@media screen and (min-width:501px) and (max-width:900px){
+
+.count-details{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    justify-items:center;
+    height:auto;
+    padding:20px 0;
+}
+
+.count{
+    padding:20px 30px;
+}
+}

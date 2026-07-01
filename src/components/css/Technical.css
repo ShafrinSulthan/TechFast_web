@@ -1,0 +1,28 @@
+#tech-support{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/trusted-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    width: 100%;
+}
+.tech-spt{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.tech-spt h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.tech-spt h3{
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.tech-spt p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #fff;
+}

@@ -1,0 +1,108 @@
+.font-seconary {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-accent {
+    font-family: "Inter", sans-serif;
+}
+
+.heading-abt {
+    font-size: 350%;
+    
+}
+
+.team-cent p {
+    height: 60px;
+    font-size: small;
+}
+
+.icon i {
+    height: 30px;
+    width: 30px;
+}
+.trusted-img{
+ width:100%;
+ height: 350px;  
+ object-fit: cover;
+
+}
+.about-hero{
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.trusted-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(8, 28, 80, 0.45);
+}
+
+.about-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.about-content h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-content h5{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-content span{
+    color: #ffb400;
+    margin: 0 10px;
+}
+
+/* TABLET (max-width: 800px) */
+@media (max-width: 800px) {
+    .heading {
+        font-size: 200% !important;
+    }
+
+    .team-cent.col-lg-4 {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+
+    .team-cent img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* PHONE (max-width: 500px) */
+@media (max-width: 500px) {
+    .heading {
+        font-size: 160% !important;
+        letter-spacing: 1px;
+    }
+
+    .team-cent.col-lg-4 {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    .team-cent p {
+        height: auto !important;
+    }
+}

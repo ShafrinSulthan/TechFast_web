@@ -1,0 +1,75 @@
+.pricing-card{
+    border-radius: 5px;
+    height: auto;
+    width: 30%;
+    
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+/* background-color: red; */
+}
+.pricing-card:hover{
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.pricing-header{
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px;
+    padding-bottom: 45px;
+    background-color: #7b68ee;
+}
+.pricing-item{
+    /* margin: 15px; */
+    list-style: none;
+   padding: 6px;
+   text-align: center;
+   /* justify-content: center; */
+   /* background-color: #262636; */
+   border-bottom: 1px solid rgb(239, 237, 237);
+}
+.get-btn{
+    border-radius: 20px;
+display: block;
+margin: 25px auto;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center; 
+    border: none;
+    background-color: #7b68ee;
+    padding: 15px 30px;
+    /* margin: 20px 40px 40px 40px; */
+}
+.price-details{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pricing-content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width:500px){
+
+.pricing-content{
+    flex-direction:column;
+    align-items:center;
+}
+
+.pricing-card{
+    width:90%;
+}
+}
+
+@media screen and (min-width:501px) and (max-width:900px){
+
+.pricing-content{
+    flex-direction:column;
+    align-items:center;
+}
+
+.pricing-card{
+    width:70%;
+}
+}

@@ -1,0 +1,140 @@
+
+:root {
+    --color-primary: rgb(87, 100, 236);
+    --color-secondary: #ff561d; 
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+    padding: 15px 25px;
+    border-radius: 3px;
+    font-weight: bolder;
+    background: var(--color-primary);
+    border: none;
+    color: #fff;
+    margin-right: 15px;
+    box-shadow: rgba(87, 99, 236, 0.700) 0px 2px 8px 0px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-secondary);
+    box-shadow: rgb(255, 86, 29, 0.700) 0px 2px 8px 0px;
+}
+
+/* blog section  */
+.latest-blog {
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
+}
+
+.latest-blog h1 {
+    padding: 30px 0;
+}
+
+.main-heading {
+    color: var(--color-secondary);
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.blog-cards {
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.blog-cards img {
+    width: 100%;
+    display: block;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-content h6,
+.blog-content p,
+.blog-content a {
+    padding: 5px 0;
+    display: block;
+}
+
+span {
+    color: var(--color-primary);
+}
+
+.para {
+    line-height: 25px;
+    font-size: 80%;
+    color: #333;
+}
+
+.quest {
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+}
+
+.quest:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+.read-me {
+    text-decoration: none;
+    color: #333;
+}
+
+.read-me:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+.btn2 {
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Tablet View (501px to 900px) */
+@media screen and (min-width: 501px) and (max-width: 900px) {
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .button {
+        padding: 13px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile View (max-width: 500px) */
+@media screen and (max-width: 500px) {
+    .blogs {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .para {
+        font-size: medium;
+    }
+    .button {
+        padding: 12px 18px;
+        margin-right: 8px;
+        font-size: 13px;
+    }
+}

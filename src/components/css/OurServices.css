@@ -1,0 +1,44 @@
+.serivces-heading{
+    text-align: center;
+}
+.row{
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    line-height: 25px;
+   
+}
+.row:hover{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.row button {
+    background-color: white;
+    color: #7b68ee;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.service-content{
+    margin-bottom: 20px;
+    
+
+}
+.arrow-r{
+    font-size: 20px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+
+@media screen and (max-width:500px){
+.cloumn{
+    flex-direction:column;
+}
+}
+
+@media screen and (min-width:501px) and (max-width:900px){
+.cloumn{
+    flex-direction:column;
+}
+}
