@@ -2,7 +2,6 @@ import './css/Freaturs.css'
 export const Freaturs = () => {
     return (
         <section className="slid-4 web-pg">
-            <img src="https://cutesolution.com/html/techfast/assets/img/choose-1.jpg" className="image-1" />
             <div className="content-1">
                 <h3 className="heading">Why Choose Us?</h3>
                 <h1 className="sub-heading" style={{ fontSize: "35px" }}>Innovating to make Technology work for People Everywhere</h1>
@@ -23,6 +22,7 @@ export const Freaturs = () => {
 
                 </div>
             </div>
+            <img src="https://cutesolution.com/html/techfast/assets/img/choose-1.jpg" className="image-1" />
         </section>
     )
 }

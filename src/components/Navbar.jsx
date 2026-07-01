@@ -47,7 +47,7 @@ const Navbar = () => {
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li className={`dropdown ${openMenu === "home" ? "open" : ""}`} onClick={handleDropdownToggle("home")}>
           <Link to = '/'>Home</Link>
-          <i className="fa-solid fa-caret-down ms-2"></i>
+          <i className="fa-solid fa-caret-down "></i>
           <ul className="dropdown-menu">
             <li><Link to = '/home1' onClick={handleLinkClick}>Home 1</Link></li>
             <li><Link to = '/home2' onClick={handleLinkClick}>Home 2</Link></li>
@@ -60,7 +60,7 @@ const Navbar = () => {
 
         <li className={`dropdown ${openMenu === "service" ? "open" : ""}`} onClick={handleDropdownToggle("service")}>
           <Link to = '/'>Services</Link>
-          <i className="fa-solid fa-caret-down ms-2"></i>
+          <i className="fa-solid fa-caret-down"></i>
           <ul className="dropdown-menu">
             <li><Link to= '/service' onClick={handleLinkClick}>Service</Link></li>
             <li><Link to = '/service-details' onClick={handleLinkClick}>Service Details</Link></li>
@@ -70,7 +70,7 @@ const Navbar = () => {
         
         <li className={`dropdown ${openMenu === "portfolio" ? "open" : ""}`} onClick={handleDropdownToggle("portfolio")}>
           <Link to = '/'>Portfolio</Link>
-          <i className="fa-solid fa-caret-down ms-2"></i>
+          <i className="fa-solid fa-caret-down"></i>
           <ul className="dropdown-menu">
             <li><Link to = '/portfolio1' onClick={handleLinkClick}>Portfolio 1</Link></li>
             <li><Link to = '/portfolio2' onClick={handleLinkClick}>Portfolio 2</Link></li>
